@@ -2,8 +2,8 @@ import React, {PropTypes} from 'react';
 import {render} from 'react-dom';
 
 const propTypes = {
-	id: PropTypes.number,
-	percent: PropTypes.number
+  id: PropTypes.number,
+  percent: PropTypes.number
 };
 
 class Progressbar extends React.Component {
@@ -16,7 +16,8 @@ class Progressbar extends React.Component {
             ref={this.props.id}
             id={this.props.id}>
             <div
-              className="progress-bar progress-bar-success active"        role="progressbar"
+              className="progress-bar progress-bar-success active"
+              role="progressbar"
               aria-valuenow= {this.props.percent}
               aria-valuemin="0"
               aria-valuemax="100"

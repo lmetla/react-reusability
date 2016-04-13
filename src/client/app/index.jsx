@@ -5,7 +5,6 @@ import Internetusage from './components/data-usage/Internetusage.jsx';
 import Talktimeusage from './components/data-usage/Talktimeusage.jsx';
 
 class App extends React.Component {
-
   render () {
     return (
       <div className ="row">
